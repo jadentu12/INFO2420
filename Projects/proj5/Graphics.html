@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Backyard Birds - Graphics</title>
+<style>
+        
+.banner {
+    width: 100%;
+    height: 50px;
+    background: url('images/SwanSmall.jpg') no-repeat center center/cover;
+	background-size: 550px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    border: 3px solid #ffffff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="banner">
+    Backyard Birds
+</div>
+
+
+<img src="images/logo.png">
+
+</body>
+</html>
