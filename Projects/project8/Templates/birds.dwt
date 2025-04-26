@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Home - Backyard Birds</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../MyStyles.css" type='text/css'>
+			
+	
+		<script type="text/javascript" src="../myscripts.js"></script>
+	
+<link rel="stylesheet" href="../print.css" type="text/css" media="print">
+
+</head>
+
+<body  onload="preloadImages()">
+	
+	<header>
+		<a href="../index.htm" onMouseOver="document.logo.src=logo2.src;"
+			onMouseOut="document.logo.src=logo1.src;">
+
+		<img src="../images/logo1.png" alt="logo" 
+			name="logo" width="150" height="150" usemap="#logoMap" class="logoleft" style="border:none;"/>
+        <map name="logoMap">
+          <area shape="rect" coords="4,3,147,146" href="../index.html" alt="index">
+        </map>
+
+		</a>
+		
+		<img src="../images/banner.jpg" alt="Swan Banner" width="500" height="150">
+		
+		
+	</header>
+	
+	<section>
+		<nav>
+			<a href="../Home.html">Home Page</a><br>
+			<a href="../aboutus.htm">About Us&nbsp;&nbsp;&nbsp;</a><br>
+			<a href="../tributes.htm">Tributes &nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+			<a href="../favorites.htm">Favorites &nbsp;&nbsp;&nbsp;</a><br>
+			<a href="../survey.htm">Survey Page</a><br>
+			
+			
+			
+		</nav>
+	
+	  <!-- TemplateBeginEditable name="right" -->
+		<article>
+		  <h1>Welcome to Backyard Birds of Utah! </h1>
+		  <p>If you love birdwatching like we do, you should enjoy looking around this site.  
+		    Take a look at our Bird Profiles and take the opportunity to complete our survey. </p>
+		  <div id="thumbs"> <img src="../images/thumbnails/Image1Sm.jpg" alt="Owl with orange eyes" onMouseOver="swapImage(0);" /> <img src="../images/thumbnails/Image2Sm.jpg" alt="Love-Birds" onMouseOver="swapImage(1);" /> <img src="../images/thumbnails/Image3Sm.jpg" alt="Confused Looking bird" onMouseOver="swapImage(2);" /> <img src="../images/thumbnails/Image4Sm.jpg" alt="Mallard" onMouseOver="swapImage(3);" /> </div>
+		  <div id="image"> <img id="theImage" src="../images/fullsize/Image1Lg.jpg" alt="Owl with orange eyes" />
+		    <h3 id="bottomText">Owl with orange eyes</h3>
+	      </div>
+		  <h2>What Our Customers Have Been Saying</h2>
+		  <img src="../images/HawkSm.jpg" alt="Hawk" width="193">
+		  <p class='tribute'>My name is Dave Jorgensen. I live in northern Utah and I enjoy bird watching. Every year I look forward to finding a nature calendar to put in my office. Because I work in the city, I enjoy being reminded about the beauty of the state of Utah. I was excited to find the calendar offered by Bart Jones. I recognize some of the bird varieties from my own back yard, but I was amazed to see the wide variety of birds he has captured with his camera in his Eureka neighborhood. The colors of the birds are so brilliantly captured that they look very real. <a href="../tributes.htm"></a></p>
+	  </article>
+    <!-- TemplateEndEditable --> 
+	
+	</section>
+	
+	<footer>
+	  	<p>Contact Us By Email: <a href="mailto:10985383@uvu.edu">Jaden Tu</a></p>
+		<p>This web site has been created soley for educational purposes.</p>
+	</footer>
+	
+</body>
+</html>
